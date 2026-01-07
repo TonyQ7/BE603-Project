@@ -1,22 +1,17 @@
 """
-Crowdfunding Campaign Success Analysis
-Research Question: What factors lead to successful crowdfunding campaigns?
-
 Hypotheses:
 H1: Campaign Quality & Signaling - better visuals/pitch = more funding
 H2: Engagement & Social Proof - more comments/updates = more funding  
 H3: Project Type - business/social projects do better than personal ones
 
 Data: Campaign dataset (5000 obs) + Contribution dataset (200 campaigns x 40 days)
+Authors: Dajue Qiu (26336), Elise Matson (26430), Yuxin Gong (26343), Cherlos Kabriel (25836)
 """
 
 # CELL 1: SETUP & IMPORTS
-# !pip install pandas numpy statsmodels scipy matplotlib seaborn openpyxl linearmodels
-
 import pandas as pd
 import numpy as np
 
-# comment out the next 2 lines in Colab
 import matplotlib
 matplotlib.use('Agg')
 
